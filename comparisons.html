@@ -9,7 +9,7 @@
 <body>
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="index.html">Weather Page</a>
+    <a class="navbar-brand" href="index.html"><h1>Latitude</h1></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -17,7 +17,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="index.html"> <span class="sr-only">(current)</span></a>
         </li>
       </ul>
         <ul class="navbar-nav">
@@ -35,7 +35,7 @@
         </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">
-        <a class="nav-link" href="comparisons.html">Comparisons <span class="sr-only">(current)</span></a>        
+        <a class="nav-link" href="comparisons.html">Comparisons<span class="sr-only">(current)</span></a>        
         <a class="nav-link" href="data.html">Data <span class="sr-only">(current)</span></a>
         
       </form>
@@ -46,6 +46,7 @@
     <div class="row">
       <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
         <div class="sidebar-sticky pt-3">
+          <h4>Visualizations</h4>          
           <ul class="nav flex-column">
 
             <li class="nav-item">
@@ -72,11 +73,7 @@
                 <img src="images\City Latitude vs Wind Speed - thumbnail.png">
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                About
-              </a>
-            </li>
+
           </ul>
   
         </div>
@@ -84,7 +81,7 @@
 
       <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
         <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-          <h1 class="h2">Comparisons</h1>
+          <h1 class="h2">Comparisons: Latitude vs X</h1>
           <div class="btn-toolbar mb-2 mb-md-0">
             <div class="btn-group mr-2">
               <button type="button" class="btn btn-sm btn-outline-secondary">Download</button>
@@ -94,40 +91,44 @@
           </div>
         </div>
   
-        <h2>
-          What's the Weather Like?
-        </h2>
         <p>
-            Biscuit cupcake soufflé lemon drops. Lollipop soufflé jelly danish cotton candy donut cake cupcake. Cake powder pastry cake toffee gummi bears cookie. Chocolate tiramisu wafer caramels dessert chocolate bar ice cream candy chocolate bar.
+            Below are the visualizations to compare the relation of latitude against maximum temperature, humidity, cloudiness, wind speed side by side.
         </p>
+
         <p>
-            Jelly-o cupcake caramels cake. Chupa chups wafer chupa chups chupa chups brownie fruitcake sweet pudding. Danish cookie donut dragée halvah cotton candy jujubes dragée liquorice.
-        </p>
-        <p>
-            Apple pie pudding caramels chocolate liquorice pie jelly-o. Dragée cheesecake chocolate bear claw sugar plum muffin lemon drops liquorice. Donut macaroon liquorice sesame snaps chocolate halvah marshmallow.
+            Click on any plot to get an in-depth analysis.
         </p>   
+        
         <div class="row">
 
             <!-- First of two columns -->
             <div class="col-md-6">
+                <a href="latitudeVScloudiness.html">
                 <img src="images\City Latitude vs Cloudiness - medium.png">
+                </a>
             </div>
       
             <!-- Second of two columns -->
             <div class="col-md-6">
+                <a href="latitudeVShumidity.html">
                 <img src="images\City Latitude vs Humidity - medium.png">
+                </a>
             </div>
           </div>
           <div class="row">
 
             <!-- First of two columns -->
             <div class="col-md-6">
+                <a href="latitudeVStemperature.html">
                 <img src="images\City Latitude vs Max Temperature - medium.png">
+                </a>
             </div>
       
             <!-- Second of two columns -->
             <div class="col-md-6">
+                <a href="latitudeVSwindspeed.html">
                 <img src="images\City Latitude vs Wind Speed - medium.png">
+                </a>
             </div>
           </div>          
     </div>

@@ -9,7 +9,7 @@
 <body>
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Weather Page</a>
+    <a class="navbar-brand" href="#"><h1>Latitude</h1></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -17,7 +17,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#"><span class="sr-only">(current)</span></a>
         </li>
       </ul>
         <ul class="navbar-nav">
@@ -46,6 +46,7 @@
     <div class="row">
       <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
         <div class="sidebar-sticky pt-3">
+          <h4>Visualizations</h4>
           <ul class="nav flex-column">
 
             <li class="nav-item">
@@ -72,11 +73,7 @@
                 <img src="images\City Latitude vs Wind Speed - thumbnail.png">
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                About
-              </a>
-            </li>
+
           </ul>
   
         </div>
@@ -84,7 +81,7 @@
 
       <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
         <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-          <h1 class="h2">Dashboard</h1>
+          <h1 class="h2">Summary: Latitude vs X</h1>
           <div class="btn-toolbar mb-2 mb-md-0">
             <div class="btn-group mr-2">
               <button type="button" class="btn btn-sm btn-outline-secondary">Download</button>
@@ -95,18 +92,21 @@
         </div>
   
         <h2>
-          What's the Weather Like?
+          What is latitude?
         </h2>
         <p>
-          Whether financial, political, or social -- data's true power lies in its ability to answer questions definitively. So let's take what you've learned about Python requests, APIs, and JSON traversals to answer a fundamental question: "What's the weather like as we approach the equator?"
+          Latitude is a geographic coordinate that specifies the north or south position of a point on the earth's surface.  It is the measurement of distance from the equator.  Latitude contributes to the weather.
         </p>
         <p>
-          Now, we know what you may be thinking: "Duh. It gets hotter..."
+          The purpose of this project is to analyze what the weather is like based on latitudes using the software tools that we learned in data bootcamp: Python, Matplotlib, Pandas, API, HTML, Bootstrap and CSS.
         </p>
         <p>
-          But, if pressed, how would you prove it?
+          Using Citypy Python library, we gathered a dataset of over 500 cities to be used for this analysis. Then, using OpenWeatherMap API, we gathered the data of the selected cities to plot the weather data using Matplotlib.
         </p>    
-        <img src="images\world map with latitudes and longitudes.png">      
+        <p>
+          And finally, the presentation of results and observations is written in HTML with the use of Bootstrap and CSS.
+        </p>    
+        <img src="images\Lines-of-Latitude.jpg">      
     </div>
   </div>
   
